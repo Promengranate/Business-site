@@ -1,0 +1,947 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*===========================================================================================
+                                    MOBILE/ DEFAULT STYLING
+===========================================================================================*/
+header {
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+    height: 15vh;
+    z-index: 100;
+}
+
+
+.header-area {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+
+.sidebar-toggler {
+    font-size: 24px;
+    color: #fff !important;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.container {
+    margin-top: 2.5vh;
+}
+
+.body{
+    height:1500vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.section_1{
+    height: 40vh;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub_section_1{
+    height: 30vh;
+    background-color: rgb(219, 202, 202);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+
+.sub_sub_section_1{
+    height: 100%;
+    background-color: blue;
+    width:50%;
+}
+
+.header{
+    font-size: 4vw;
+    font-weight: bold;
+    color: white;
+}
+
+.text{
+    font-size: 2vw;
+    color: lightblue;
+}
+
+.image_1{
+    width:95%;
+    height:95%;
+    margin: 2.5%;
+    border-radius: 2vw;
+    
+}
+
+.button_holder_1{
+    display: flex;
+    
+}
+.button_1{
+    height: 4vh;
+    font-size: 3vw;
+    border: none;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    margin-top: 2vh;
+    width:25vw
+}
+.button_2{
+    height: 4vh;
+    font-size: 3vw;
+    border: none;
+    margin-top: 2vh;
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+    border-radius: 1vw;
+    margin-left:2vw ;
+    width:20vw
+}
+
+
+
+
+.section_2{
+    height:40vh;
+    width:90%;
+    background-color: white;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 2vh;
+}
+
+.sub_section_2{
+    width:50%;
+    height:100%;
+    background-color: blue;
+    border: 1px solid black;
+    color: red;
+}
+
+.image_2{
+    width:100%;
+    height:100%;
+}
+
+.text_1{
+    color:black;
+}
+/*===========================================================================================
+                                    TABLET STYLING
+===========================================================================================*/
+
+/*@media (min-width:481px) and (max-width:1099px){
+
+    .container {
+        margin-top: 2.25vh;
+        width:80vw;
+    }
+
+    .navbar-brand {
+        transform-origin: left;
+        scale: 1.75;
+    }
+
+    header{
+        height:10vh;
+    }
+
+    .nav-item{
+        transform-origin: left;
+        scale:1.5;
+        line-height: 4;
+    }
+
+    .navbar-nav{
+        height: 25vh;
+    }
+}*/
+
+
+
+/*===========================================================================================
+                                    DESKTOP STYLING
+===========================================================================================*/
+
+@media (min-width:1100px) {
+    
+    .container {
+        margin-top: 3vh;
+        margin-left:5vw;
+        
+    }
+
+    .nav-link {
+        font-size: 1.5vw;
+    }
+
+    .sidebar-toggler {
+        scale: 1.5;
+        margin-left: 8.25vw;
+    }
+
+    .navbar-brand {
+        transform-origin: left;
+        scale: 2;
+    }
+
+    .navbar-nav {
+        margin-left: 15vw;
+        margin-right: 25vw;
+    }
+
+    .section_1{
+        margin-top: 0vh;
+        height:100vh;
+    }    
+    
+    .sub_sub_section_1{
+        margin-top: 0vh;
+    }
+    .sub_section_1{
+        margin-top: 0vh;
+        height:80vh;
+        width:90%
+    }
+    .image_1{
+        width:100%;
+        height: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .header{
+        margin-top: 13vh;
+        font-size: 3.7vw;
+        margin-bottom: 5vh;
+    }
+    .text{
+        font-size: 1.3vw;
+        margin-bottom: 5vh;
+    }
+    .button_holder_1{
+        height: 20vh;
+        
+    }
+    .button_1{
+        height:8vh;
+        background-color: white;
+        color: blue;
+        font-size: 1.2vw;
+        font-weight: bold;
+        width:12vw;
+        border-radius: 0.3vw;
+    }
+    .button_1:hover{
+        border: 1px solid white;
+        background-color: blue;
+        color: white;
+    }
+    .button_2{
+        height:8vh;
+        background-color:blue;
+        width:12vw;
+        font-size: 1.5vw ;
+        font-weight: bold;
+        color: white;
+        scale: 0.8;
+        margin-left:1vw ;
+        transform-origin: left;
+    }
+
+    .section_2{
+        height:90vh;
+        background-color: green;
+        margin-top: 15vh;
+    }
+    .sub_section_2{
+        background-color: white;
+        height:90vh;
+        border: none;
+    }
+    .image_2{
+        height:90%;
+        width:90%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .text_1{
+        font-size: 2.3vw;
+        color:black;
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 2.5vh;
+        margin-top: 3vh;
+    }
+    .text_2{
+        font-size: 2.4vw;
+        color:black;
+        font-weight:bold;
+        line-height: 1.1;
+        margin-bottom: 8vh;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #pills-tab{
+        width:70%;
+        height:12vh;
+        justify-content: space-between;
+        background-color: lightgray;
+        margin-left: 15%;
+        padding: 0vw;
+        border-radius: 0.5vw;
+
+    }
+    
+    #pills-home-tab{
+        height: 7vh;
+        width:9vw;
+        margin-left: 1.25vw;
+        margin-right: 0vw;
+        margin-top: 3vh;
+    }
+    
+
+    #pills-profile-tab{
+        height: 7vh;
+        width:9vw;
+        margin-left: vw;
+        margin-right: 0vw;
+        margin-top: 3vh;
+    }
+
+    #pills-contact-tab{
+        height: 7vh;
+        width:9vw;
+        margin-left: 0vw;
+        margin-right: 1.25vw;
+        margin-top: 3vh;
+    }
+
+    #pills-tabContent{
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:5vh;
+        font-size: 1.3vw;
+        color: grey;
+        font-weight: 500;
+    }
+
+    .section_3{
+        width:100%;
+        height:30vh;
+        background-color: rgba(255, 255, 255, 0);
+        margin-top:20vh
+        
+    }
+    .button_3{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width:8vw;
+        height:6vh;
+        border: 3px solid blue;
+        background-color: white;
+        color:blue;
+        border-radius: 30vw;
+        font-weight: bold;
+        font-size: 1vw;
+    }
+    .text_3{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:2vh;
+        margin-bottom:2vh;
+        display:block;
+        width:30vw;
+        text-align: center;
+        background-color: rgba(127, 255, 212, 0);
+        font-size: 3vw;
+        font-weight:bold;
+    }
+    
+    .text_4{
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        width:40vw;
+        background-color: rgba(137, 43, 226, 0);
+        text-align: center;
+        color:grey;
+        font-size: 1.25vw;
+    }
+
+
+    .section_4{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vh;
+        width:85vw;
+        height: 105.25vh;
+    }
+    .box_holder_1{
+        width:100%;
+        height:105.25vh;
+        display: grid;
+        grid-template-columns: 26.667vw 26.667vw 26.667vw;
+        grid-template-rows:50vh 50vh;
+        gap:2.5vw;
+        background-color: rgb(255, 255, 255);
+    }
+    .box_1{
+        width:26.667vw;
+        height: 50vh;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 3px rgba(0,0,0,0.35);
+        border-radius: 0.5vw;
+    }
+       
+    
+
+    .icon_3{
+        width:7vw;
+        height:7vw;
+        background-color: blue;
+        border-radius: 50%;
+        margin-left: 2vw;
+        margin-top: 2vw;
+    }
+
+    
+
+    .text_5{
+        background-color: rgba(0, 255, 255, 0);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1vw;
+        width:88%;
+        height:4vh;
+        font-size: 1.5vw;
+        font-weight: 600;
+        
+    }
+    .text_6{
+        background-color: rgba(0, 128, 0, 0);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5vw;
+        width:88%;
+        height:10h;
+        font-size: 1.2vw;
+        color:gray;
+        line-height: 1.75;
+        
+    }
+
+    .section_5{
+        width:100%;
+        height:80vh;
+        background-color: rgba(0, 255, 255, 0);
+    }
+
+    .box_holder_2{
+        width:85vw;
+        height:90vh;
+        background-color: rgba(204, 231, 231, 0); 
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 26.667vw 26.667vw 26.667vw;
+        gap: 2.5vw;
+        grid-template-rows: 90vh;
+    }
+
+    .box_2{
+        background-color: rgb(255, 255, 255);
+        width:26.667vw;
+        height:90vh;
+        box-shadow: 0 0 3px rgba(0,0,0,0.35);
+        border-radius: 0.5vw;
+    }
+
+    .button_4{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8vh;
+        display: block;
+        width:8vw;
+        height:6vh;
+        border:3px solid blue;
+        color: blue;
+        border-radius: 4vw;
+        font-size: 1.3vw;
+    }
+
+    .text_7{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+        background-color: rgba(0, 255, 255, 0);
+        width:90%;
+        height:10vh;
+        font-size: 1.35vw;
+        text-align: center;
+        color: grey;
+    }
+    .price_1{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 6vw;
+        width:7.5vw;
+        background-color: rgba(0, 0, 255, 0);
+        
+    }
+
+    .script_1{
+        font-size: 1.5vw;
+        color: grey;
+    }
+
+    .button_5{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+        display: block;
+        width:15vw;
+        height:8vh;
+        border:2px solid blue;
+        color: blue;
+        border-radius: 0.5vw;
+        font-size: 1.3vw;
+    }
+
+    .button_5:hover{
+        background-color: darkblue;
+        color: white;
+        border-color: darkblue;
+    }
+
+    #button_6_center{
+        background-color: blue;
+        color: white;
+    }
+    #button_6_center:hover{
+        background-color: darkblue;
+        color: white;
+    }
+
+    .list_1{
+        width:80%;
+        margin-top: 3vh;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5vw;
+        color: grey;
+        line-height: 6vh;
+    }
+
+    .section_6{
+        background-color: blue;
+        height:75vh;
+        margin-top: 30vh;
+    }
+
+    .holder_3{
+        background-color: rgba(165, 42, 42, 0);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1vh;
+        width:80vw;
+        height:60vh;
+        position: relative;
+        top:13vh
+    }
+    .text_8{
+        color:white ;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(0, 255, 255, 0);
+        width:40vw;
+        height:17vh;
+        font-size: 2.5vw;
+    }
+    .text_9{
+        color:white ;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 3vh;
+        background-color: rgba(0, 255, 255, 0);
+        width:43vw;
+        height:20vh;
+        font-size: 1.3vw;
+    }
+
+    .button_7{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+        display: block;
+        width:15vw;
+        height:8vh;
+        border:2px solid white;
+        color: white;
+        background-color: blue;
+        border-radius: 0.5vw;
+        font-size: 1.3vw;
+    }
+    .button_7:hover{
+        background-color: white;
+        color: blue;
+    }
+
+    .section_7{
+        background-color: rgba(95, 158, 160, 0);
+        margin-top: 15vh;
+        width:100%;
+        height:70vh;
+    }
+
+    .box_holder_3{
+        width:84vw;
+        height:70vh;
+        background-color: rgba(110, 224, 224, 0); 
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 26.667vw 26.667vw 26.667vw;
+        gap: 2vw;
+        grid-template-rows: 70vh;
+    }
+
+    .box_3{
+       background-color: rgb(255, 255, 255);
+        width:26.667vw;
+        height:70vh;
+        border-radius: 0.5vw; 
+    }
+
+    .image_3{
+        width: 100%;
+        height: 55%;
+        background-color: chartreuse;
+        border-radius: 0.5vw 0.5vw 0vw 0vw;
+    }
+
+    .text_10{
+        font-size: 2vw;
+        font-weight: bold;
+        margin-top: 2vh;
+    }
+    .text_11{
+        font-size: 1.25vw;
+        margin-top: 2vh;
+        color: grey;
+    }
+
+    #button_special{
+        width: 13vw;
+    }
+    
+    #text_special{
+        width:40vw;
+    }
+
+    .image_4{
+        width:100%;
+        height:100%;
+        border-radius: 0.5vw 0.5vw 0vw 0vw;
+    }
+
+    .section_8{
+        width:100%;
+        height:55vh;
+        background-color: rgba(137, 43, 226, 0);
+        margin-top: 15vh;
+    }
+
+    .box_holder_4{
+        width:64vw;
+        height: 25vh;
+        background-color: rgba(127, 255, 212, 0);
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 20vw 20vw 20vw;
+        gap:2vw
+        
+
+    }
+
+    .box_4{
+        width:20vw;
+        height:25vh;
+        border: 1px solid rgb(236, 234, 234);
+        border-radius: 0.75vw;
+        transition: 0.3s ease;
+        background-color: white;
+    }
+
+    .box_4:hover{
+        transform:scale(1.05);
+    }
+
+    .box_holder_5{
+        width:58vw;
+        height: 25vh;
+        background-color: rgba(127, 255, 212, 0);
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 18vw 18vw 18vw;
+        gap:2vw;
+        margin-top: 2vw;
+
+    }
+
+    .box_5{
+        width:18vw;
+        height:25vh;
+        border: 1px solid rgb(236, 234, 234);
+        border-radius: 0.75vw;
+        background-color: white;
+        transition: 0.3s ease
+        
+    }
+
+    .box_5:hover{
+        transform:scale(1.05);
+    }
+
+    .image_5{
+        width:90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vw;
+    }
+
+    .section_9{
+        margin-top: 30vh;
+        width:100%;
+        height:75vh;
+        background-color: rgba(127, 255, 212, 0);
+        
+    }
+
+    .holder_9{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width:85%;
+        height:100%;
+        background-color: rgba(0, 128, 0, 0);
+    }
+    #section_9_1{
+        width:37%;
+        height:100%;
+        background-color: rgba(255, 166, 0, 0);
+        margin-right: 3vw;
+    }
+    #section_9_2{
+        width:60%;
+        height:110vh;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 0.75vw;
+    }
+
+    .bar_1{
+        width: 100%;
+        height:30%;
+        background-color: rgba(137, 43, 226, 0);
+        border-radius: 0.75vw;
+        display: flex;
+        border: 1px solid lightgray
+    }
+    #margin{
+        margin-bottom: 5.75%;
+    }
+
+    .bar_1_1{
+        height:90%;
+        width:30%;
+        background-color: blue;
+        border-radius: 50%;
+        margin-top: 2%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .bar_1_2{
+        height:100%;
+        width:50%;
+        background-color: rgba(136, 255, 0, 0);
+        border-radius: 0vw 0.75vw  0.75vw 0vw;
+    }
+
+    .content_title{
+        font-size: 1.75vw;
+        font-weight: bold;
+        margin-top: 1vw;
+        color:blue
+    }
+
+    .content_description{
+        color: grey;
+        font-size: 1.25vw;
+    }
+
+    .text_12{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7vh;
+        background-color: rgba(127, 255, 212, 0);
+        width:12vw;
+        font-size: 1.75vw;
+        font-weight: bold;
+        color: blue;
+    }
+    .text_13{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0vh;
+        background-color: rgba(127, 255, 212, 0);
+        width:25vw;
+        font-size: 2.5vw;
+        font-weight: bold;
+        color: black;
+    }
+    .text_14{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vh;
+        background-color: rgba(127, 255, 212, 0);
+        width:33vw;
+        font-size: 1.15vw;
+        color: grey;
+        text-align: center;
+    }
+    
+    .entry_holder{
+        width:43vw;
+        height:22vh;
+        background-color: rgba(0, 128, 0, 0);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4vh;
+        display: grid;
+        grid-template-columns: 21vw 21vw;
+        grid-template-rows: 10vh 10vh;
+        gap:1vw
+    }
+
+    .entry_1{
+        width:21vw;
+        height:9vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 2vw;
+        text-decoration: none;
+        border:1px solid lightgray;
+    }
+
+    .entry_2{
+        width:85%;
+        height:30vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+        border:1px solid lightgray;
+        border-radius: 1vw;
+    }
+
+    .button_8{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6vh;
+        display: block;
+        width:15vw;
+        height:4vw;
+        border-radius: 2vw;
+        border:none;
+        background-color: blue;
+        color:white;
+        font-size: 1.3vw;
+        font-weight: bold;
+    }
+    .section_10{
+        width:100%;
+        height: 38vw;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+    }
+
+    .map_1{
+        width:100%;
+        height:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1099px) {
+
+
+    .navbar-collapse.collapse.show {
+        background-color: blue;
+        padding: 0.75rem 1rem;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        color: #fff !important;
+        padding: 0.5rem 0;
+    }
+
+    .sidebar-toggler {
+        scale: 0;
+    }
+
+    
+}
